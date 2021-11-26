@@ -1,0 +1,38 @@
+.section-slider {
+  position: relative;
+  .image {
+    height: 40vh;
+    width: 100%;
+  }
+}
+
+.btn {
+  width: 3.2rem;
+  height: 3.2rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+
+  .left-arrow,
+  .right-arrow {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
+
+.btn-left {
+  transform: translate(50%, -50%);
+}
+
+.btn-right {
+  right: 0;
+  transform: translate(-50%, -50%);
+}

@@ -1,7 +1,9 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 2.4rem;
+  align-items: center;
+  padding: 0.8rem 2.4rem;
+  height: 8.4rem;
 }
 
 .nav-left {
@@ -9,6 +11,7 @@
     filter: invert(48%) sepia(12%) saturate(429%) hue-rotate(178deg)
       brightness(87%) contrast(89%);
     margin-right: 3.2rem;
+    cursor: pointer;
   }
 
   h1 {
